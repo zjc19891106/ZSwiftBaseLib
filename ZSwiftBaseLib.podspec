@@ -31,7 +31,7 @@ a swift lib
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZSwiftBaseLib/Classes/**/*'
-  
+  s.swift.version = '5.0'
   # s.resource_bundles = {
   #   'ZSwiftBaseLib' => ['ZSwiftBaseLib/Assets/*.png']
   # }
