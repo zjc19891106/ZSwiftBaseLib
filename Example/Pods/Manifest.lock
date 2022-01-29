@@ -1,0 +1,16 @@
+PODS:
+  - ZSwiftBaseLib (0.1.0)
+
+DEPENDENCIES:
+  - ZSwiftBaseLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZSwiftBaseLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSwiftBaseLib: 8cc25f70c98f66b5b1b9bee3e34fe86c1cc2b1fd
+
+PODFILE CHECKSUM: d2b8f6e572b8543ec8f4a2b3175091f1dcfa7043
+
+COCOAPODS: 1.11.2
