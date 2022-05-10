@@ -442,8 +442,8 @@ public extension UITextField {
     @discardableResult
     func rightView(_ right: UIView?, _ model: UITextField.ViewMode) -> Self {
         let view = self
-        view.leftView = right
-        view.leftViewMode = model
+        view.rightView = right
+        view.rightViewMode = model
         return view
     }
     
