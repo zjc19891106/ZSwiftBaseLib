@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0562F4CC289A20FD0013352C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4CA289A20FD0013352C /* UIImageExtension.swift */; };
+		0562F4CD289A20FD0013352C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4CA289A20FD0013352C /* UIImageExtension.swift */; };
+		0562F4CE289A20FD0013352C /* CircularMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4CB289A20FD0013352C /* CircularMenuLayout.swift */; };
+		0562F4CF289A20FD0013352C /* CircularMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4CB289A20FD0013352C /* CircularMenuLayout.swift */; };
+		0562F4D4289A27B10013352C /* UIViewControllerExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4D3289A27B10013352C /* UIViewControllerExtentsion.swift */; };
+		0562F4D5289A27B10013352C /* UIViewControllerExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562F4D3289A27B10013352C /* UIViewControllerExtentsion.swift */; };
 		0882566F25BDAC48768ADE46538C7E01 /* Pods-ZSwiftBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4452EB5BB0BFE54462BDA2FDB54662ED /* Pods-ZSwiftBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F446004D11DC15CAEE1A027EB710850 /* ZSwiftBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C1DB855494166F6F33102EE9F4939F /* ZSwiftBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24D0863ADCE2C3BD26067998031B84BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -51,8 +57,6 @@
 		6692574F27A4E060009E7276 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692572A27A4E060009E7276 /* Contants.swift */; };
 		6692575027A4E060009E7276 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692572B27A4E060009E7276 /* StringExtension.swift */; };
 		6692575127A4E060009E7276 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692572B27A4E060009E7276 /* StringExtension.swift */; };
-		66DCC173286C504F00D83326 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCC172286C504F00D83326 /* UIImageExtension.swift */; };
-		66DCC174286C504F00D83326 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DCC172286C504F00D83326 /* UIImageExtension.swift */; };
 		71C6A4F2DEBC89625423A2A5ADCC8782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		83E2947F6E80A78CA384F42BA16EE5D0 /* Pods-ZSwiftBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B4E61AEE4FBD08B9FBE7F3AFD3EB7 /* Pods-ZSwiftBaseLib_Example-dummy.m */; };
 		87E151D6A7F95E9688BEBC53245AEF12 /* Pods-ZSwiftBaseLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F765D13C38674D1FB6ED7CDEAD5CE /* Pods-ZSwiftBaseLib_Tests-dummy.m */; };
@@ -76,6 +80,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0562F4CA289A20FD0013352C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = ZSwiftBaseLib/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		0562F4CB289A20FD0013352C /* CircularMenuLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularMenuLayout.swift; path = ZSwiftBaseLib/Classes/CircularMenuLayout.swift; sourceTree = "<group>"; };
+		0562F4D3289A27B10013352C /* UIViewControllerExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtentsion.swift; path = ZSwiftBaseLib/Classes/UIViewControllerExtentsion.swift; sourceTree = "<group>"; };
 		07D6B5CACF9C3011A4A8E9199B8592EF /* Pods-ZSwiftBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZSwiftBaseLib_Example.modulemap"; sourceTree = "<group>"; };
 		08B6A839076F7C0157E73FADDF742659 /* ZSwiftBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZSwiftBaseLib.modulemap; sourceTree = "<group>"; };
 		098890E2048938CB5F00FBE4DB4887DE /* Pods-ZSwiftBaseLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZSwiftBaseLib_Tests"; path = Pods_ZSwiftBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +118,6 @@
 		6692572A27A4E060009E7276 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contants.swift; path = ZSwiftBaseLib/Classes/Contants.swift; sourceTree = "<group>"; };
 		6692572B27A4E060009E7276 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ZSwiftBaseLib/Classes/StringExtension.swift; sourceTree = "<group>"; };
 		669F8199F0A61B90D1F185336E273F9F /* ZSwiftBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSwiftBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66DCC172286C504F00D83326 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		6D3EE2057D44727F00910CEC3ECA5538 /* Pods-ZSwiftBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSwiftBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D6574FA8C1D9F62449D0922C1E52CC6 /* ZSwiftBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSwiftBaseLib.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -197,7 +203,9 @@
 				6692572527A4E05F009E7276 /* UIViewFunctionBuilder.swift */,
 				6692572727A4E05F009E7276 /* URLExtension.swift */,
 				6692572327A4E05F009E7276 /* ViewMemoryStorage.swift */,
-				66DCC172286C504F00D83326 /* UIImageExtension.swift */,
+				0562F4CB289A20FD0013352C /* CircularMenuLayout.swift */,
+				0562F4CA289A20FD0013352C /* UIImageExtension.swift */,
+				0562F4D3289A27B10013352C /* UIViewControllerExtentsion.swift */,
 				5007E5190CF5A97F8E0C07B9D46159B8 /* Pod */,
 				CBBE5EDA4A2219DFBCBE62EE189AF7AC /* Support Files */,
 			);
@@ -454,7 +462,7 @@
 			files = (
 				6692574B27A4E060009E7276 /* CALayerDSL.swift in Sources */,
 				6692574F27A4E060009E7276 /* Contants.swift in Sources */,
-				66DCC174286C504F00D83326 /* UIImageExtension.swift in Sources */,
+				0562F4CD289A20FD0013352C /* UIImageExtension.swift in Sources */,
 				6692574D27A4E060009E7276 /* NSAttributedStringFunctionBuilder.swift in Sources */,
 				31B6D0F0BAE9D76A3070814B57D0562A /* ZSwiftBaseLib-dummy.m in Sources */,
 				6692574727A4E060009E7276 /* DateExtension.swift in Sources */,
@@ -465,7 +473,9 @@
 				6692574327A4E060009E7276 /* DictionaryExtension.swift in Sources */,
 				6692573527A4E060009E7276 /* PropertyWrapper.swift in Sources */,
 				6692572D27A4E060009E7276 /* DataExtension.swift in Sources */,
+				0562F4CF289A20FD0013352C /* CircularMenuLayout.swift in Sources */,
 				6692575127A4E060009E7276 /* StringExtension.swift in Sources */,
+				0562F4D5289A27B10013352C /* UIViewControllerExtentsion.swift in Sources */,
 				6692573F27A4E060009E7276 /* UIDeviceExtension.swift in Sources */,
 				6692574127A4E060009E7276 /* ViewMemoryStorage.swift in Sources */,
 				6692573727A4E060009E7276 /* ArrayExtension.swift in Sources */,
@@ -490,7 +500,7 @@
 			files = (
 				6692574A27A4E060009E7276 /* CALayerDSL.swift in Sources */,
 				6692574E27A4E060009E7276 /* Contants.swift in Sources */,
-				66DCC173286C504F00D83326 /* UIImageExtension.swift in Sources */,
+				0562F4CC289A20FD0013352C /* UIImageExtension.swift in Sources */,
 				6692574C27A4E060009E7276 /* NSAttributedStringFunctionBuilder.swift in Sources */,
 				83E2947F6E80A78CA384F42BA16EE5D0 /* Pods-ZSwiftBaseLib_Example-dummy.m in Sources */,
 				6692574627A4E060009E7276 /* DateExtension.swift in Sources */,
@@ -501,7 +511,9 @@
 				6692574227A4E060009E7276 /* DictionaryExtension.swift in Sources */,
 				6692573427A4E060009E7276 /* PropertyWrapper.swift in Sources */,
 				6692572C27A4E060009E7276 /* DataExtension.swift in Sources */,
+				0562F4CE289A20FD0013352C /* CircularMenuLayout.swift in Sources */,
 				6692575027A4E060009E7276 /* StringExtension.swift in Sources */,
+				0562F4D4289A27B10013352C /* UIViewControllerExtentsion.swift in Sources */,
 				6692573E27A4E060009E7276 /* UIDeviceExtension.swift in Sources */,
 				6692574027A4E060009E7276 /* ViewMemoryStorage.swift in Sources */,
 				6692573627A4E060009E7276 /* ArrayExtension.swift in Sources */,
