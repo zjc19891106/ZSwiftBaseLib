@@ -1,0 +1,6 @@
+framework module ZSwiftBaseLib {
+  umbrella header "ZSwiftBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

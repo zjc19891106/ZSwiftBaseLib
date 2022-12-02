@@ -28,22 +28,10 @@ a swift lib
   s.source           = { :git => 'https://github.com/zjc19891106/ZSwiftBaseLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
 
-  # s.source_files = 'ZSwiftBaseLib/Classes/**/*'
-  s.subspec 'Commons' do |ss|
-        ss.source_files = 'ZSwiftBaseLib/Classes/Commons/*'
-        ss.framework = "Foundation"
-  end
-  s.subspec 'UIKit' do |ss|
-          ss.source_files = 'ZSwiftBaseLib/Classes/UIKit/*'
-          ss.framework = "UIKit"
-  end
-  s.subspec 'Foundation' do |ss|
-          ss.source_files = 'ZSwiftBaseLib/Classes/Foundation/*'
-          ss.framework = "Foundation"
-  end
-  # s.swift_version = '5.0'
+  s.source_files = 'ZSwiftBaseLib/Classes/**/*'
+  s.swift_version = '5.0'
   s.requires_arc = true
   s.static_framework = true
   s.public_header_files = 'Pod/Classes/**/*'
