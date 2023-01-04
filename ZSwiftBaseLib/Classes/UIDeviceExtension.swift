@@ -46,12 +46,12 @@ public extension UIDevice {
     }
     
     // 获取设备UUID
-    var deviceUUID :String {
-        guard let UUID = UIDevice.current.identifierForVendor?.uuidString else {
-            return "获取设备唯一标识失败"
-        }
-        return UUID
-    }
+//    var deviceUUID :String {
+//        guard let UUID = UIDevice.current.identifierForVendor?.uuidString else {
+//            return "获取设备唯一标识失败"
+//        }
+//        return UUID
+//    }
     
     // 获取设备名称（如iPhone：xxxiPhone）
     var deviceName :String {
