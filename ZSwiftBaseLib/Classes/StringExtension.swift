@@ -428,7 +428,7 @@ public extension ZSwiftLib where Base == String {
                 return NSMakeRange(result.range.location, result.range.length)
             }
         } catch {
-            assert(false, "error: \(error)")
+            consoleLogInfo("firstMatchWith error: \(error)", type: .error)
         }
         return NSMakeRange(0, 0)
     }
