@@ -24,7 +24,7 @@ public extension ZSwiftLib where Base == Dictionary<String, Any> {
             let data = try JSONSerialization.data(withJSONObject: base, options: [])
             return String(data: data, encoding: .utf8) ?? ""
         } catch {
-            assert(false, "\(error)")
+            consoleLogInfo("Dictionary to jsonString JSONSerialization error:\(error)", type: .error)
         }
         return ""
     }

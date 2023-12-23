@@ -24,7 +24,7 @@ public extension Array {
         return range.endIndex <= self.endIndex ? self[range.startIndex...range.endIndex]:nil
     }
     
-    func zyb_JsonString() -> String {
+    func jsonString() -> String {
         if (!JSONSerialization.isValidJSONObject(self)) {
             print("无法解析出JSONString")
             return ""
@@ -33,7 +33,7 @@ public extension Array {
             let data = try JSONSerialization.data(withJSONObject: self, options: [])
             return String(data: data, encoding: .utf8) ?? ""
         } catch {
-            assert(false, "\(error)")
+            consoleLogInfo("Array JSONSerialization error:\(error)", type: .error)
         }
         return ""
     }

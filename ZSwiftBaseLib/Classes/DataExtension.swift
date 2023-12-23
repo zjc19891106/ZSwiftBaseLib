@@ -20,7 +20,7 @@ public extension ZSwiftLib where Base == Data {
         do {
             dic = try JSONSerialization.jsonObject(with: base, options: .allowFragments) as? Dictionary<String,Any>
         } catch {
-            assert(false, "\(error)")
+            consoleLogInfo("Data to dictionary error:\(error)", type: .error)
         }
         return dic
     }
