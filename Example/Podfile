@@ -3,6 +3,6 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'ZSwiftBaseLib_Example' do
-  pod 'ZSwiftBaseLib', :path => '../'
+  pod 'ZSwiftBaseLib'
 
 end

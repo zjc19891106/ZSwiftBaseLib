@@ -1,6 +1,6 @@
 {
   "name": "ZSwiftBaseLib",
-  "version": "0.1.5",
+  "version": "0.1.6.2",
   "summary": "A short description of ZSwiftBaseLib.",
   "description": "a swift lib",
   "homepage": "https://github.com/zjc19891106/ZSwiftBaseLib",
@@ -13,11 +13,13 @@
   },
   "source": {
     "git": "https://github.com/zjc19891106/ZSwiftBaseLib.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6.2"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "10.0"
   },
+  "source_files": "ZSwiftBaseLib/Classes/**/*",
+  "swift_versions": "5.0",
   "requires_arc": true,
   "static_framework": true,
   "public_header_files": "Pod/Classes/**/*",
@@ -25,21 +27,5 @@
     "UIKit",
     "Foundation"
   ],
-  "subspecs": [
-    {
-      "name": "Commons",
-      "source_files": "ZSwiftBaseLib/Classes/Commons/*",
-      "frameworks": "Foundation"
-    },
-    {
-      "name": "UIKit",
-      "source_files": "ZSwiftBaseLib/Classes/UIKit/*",
-      "frameworks": "UIKit"
-    },
-    {
-      "name": "Foundation",
-      "source_files": "ZSwiftBaseLib/Classes/Foundation/*",
-      "frameworks": "Foundation"
-    }
-  ]
+  "swift_version": "5.0"
 }

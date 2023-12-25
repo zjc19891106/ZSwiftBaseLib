@@ -40,7 +40,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		91D809D8CCA4F00923249DD4 /* Pods_ZSwiftBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSwiftBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AF59B2495ADC1321BE0559 /* ZSwiftBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSwiftBaseLib.podspec; path = ../ZSwiftBaseLib.podspec; sourceTree = "<group>"; };
+		D5AF59B2495ADC1321BE0559 /* ZSwiftBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSwiftBaseLib.podspec; path = ../ZSwiftBaseLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8D8EF9C760B346E75E1E029 /* Pods-ZSwiftBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSwiftBaseLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZSwiftBaseLib_Example/Pods-ZSwiftBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DED0F893B7240AEF5990AAAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
